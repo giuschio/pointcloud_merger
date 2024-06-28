@@ -1,0 +1,5 @@
+<launch>   
+    <node name="pointcloud_merger" pkg="pointcloud_merger" type="pointcloud_merger.py" output="screen">
+        <rosparam command="load" file="$(find pointcloud_merger)/launch/params.yaml"/>
+    </node>
+</launch>

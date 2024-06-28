@@ -1,0 +1,8 @@
+camera_topics: 
+  - '/camera/depth/color/points'
+  # - '/camera2/depth/points'
+camera_frames: 
+  - 'camera_link'
+  # - 'camera2_frame'
+target_frame: 'camera_link'
+publish_frequency: 1.0
